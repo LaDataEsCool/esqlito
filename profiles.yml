@@ -1,0 +1,27 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: public
+      host: localhost
+      port: 8123
+      user: default
+      password: ''
+      secure: False
+      # optional fields
+      # driver: http|native
+      # port: <port>
+      # host: <hostname>
+      # retries: 1
+      # verify: False
+      # secure: True
+      # connect_timeout: 10
+      # send_receive_timeout: 300
+      # sync_request_timeout: 5
+      # compression: False
+      # compress_block_size: 1048576
+      # database_engine: <db_engine>
+      # check_exchange: True
+      # use_lw_deletes: False
+      # custom_settings: <empty>
