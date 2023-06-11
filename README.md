@@ -20,6 +20,24 @@ cd db && \
 ./clickhouse server
 ```
 
+## Install dependencies
+
+Create a new virtual environment and install the dependencies of the project.
+
+You can execute the `make install` command and it will install everything for you.
+
+This command does the following:
+
+```bash
+python3 -m venv .venv && \
+.venv/bin/activate && \
+python3 -m pip install --upgrade pip && \
+pip3 install --upgrade setuptools &&  \
+pip install  invoke && \
+pip install -r requirements.txt
+```
+
+
 
 ## dbt
 
