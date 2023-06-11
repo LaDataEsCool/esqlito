@@ -42,7 +42,7 @@ git clone https://github.com/dbt-labs/jaffle_shop.git
 ```
 cp profiles.yml jaffle_shop/profiles.yml
 cd jaffle_shop
-dbr debug
+dbt debug
 ```
 
 Ensure your profile is setup correctly.
